@@ -1,0 +1,143 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: small;
+}
+
+header {
+    background: #FF6600;
+    display: flex;
+    height: 25px;
+    align-items: center;
+    width: 1050px;
+    margin-left: 100px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: small;
+}
+
+.logo {
+    width: 18px;
+    height: 18px;
+    border: 1px white solid;
+    margin-left: 4px;
+    margin-right: 8px;
+
+}
+
+.link-header {
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.login-header {
+    position: absolute;
+    right: 130px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    background-color: #F6F6EF;
+    width: 1050px;
+    margin-left: 100px;
+    height: 1320px;
+    top: 0;
+}
+
+.list {
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 25px;
+    color: #828282;
+}
+
+.list-row {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.list-row-link {
+    text-decoration: none;
+    color: black;
+}
+
+.vote {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+
+.comments {
+    font-size: xx-small;
+    margin: 0 5px 0 17px;
+    text-decoration: none;
+    color: #828282;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .comments-link {
+    font-size: xx-small;
+    margin: 0 2px 0 2px;
+    text-decoration: none;
+    color: #828282;
+    display: flex;
+    flex-direction: row;
+  }
+
+.more {
+    text-decoration: none;
+    color: #828282;
+    margin-left: 40px;
+}
+
+.footer{
+    background-color: #F6F6EF;
+    width: 1050px;
+    margin-left: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px #FF6600 solid;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: black;
+    margin: 0 2px;
+    font-size: smaller;
+    padding-top: 20px ;
+}
+
+.footer-search{
+    background-color: #F6F6EF;
+    width: 1050px;
+    margin-left: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.search {
+    height: 15px;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+
+.search-text {
+    color: #828282;
+}
+
+
+  
